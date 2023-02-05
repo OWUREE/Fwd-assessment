@@ -93,7 +93,7 @@ const FormPayment = () => {
             name="Fullname"
             value={inputValue.fullName}
             type="text"
-            placeholder="enter Full name"
+            placeholder="Enter Full name"
             handleChange={(e: any) => {
               setInputValue({ ...inputValue, fullName: e.target.value });
               console.log(inputValue.fullName.split(" ")[0]);
@@ -102,7 +102,7 @@ const FormPayment = () => {
           <FormInput
             name="email"
             value={inputValue.email}
-            placeholder="enter email"
+            placeholder="Enter email"
             type="email"
             handleChange={(e: any) => {
               setInputValue({ ...inputValue, email: e.target.value });
@@ -112,7 +112,7 @@ const FormPayment = () => {
           <FormInput
             name="phone"
             value={inputValue.phoneNumber}
-            placeholder="enter phone (+234......)"
+            placeholder="Enter phone (+234......)"
             type="text"
             handleChange={(e: any) => {
               setInputValue({ ...inputValue, phoneNumber: e.target.value });
@@ -130,7 +130,7 @@ const FormPayment = () => {
             name="amount"
             value={inputValue.amount}
             type="number"
-            placeholder="enter amount (in NGN)"
+            placeholder="Enter amount (in NGN)"
             handleChange={(e: any) => {
               setInputValue({ ...inputValue, amount: e.target.value });
               console.log(inputValue.amount);
