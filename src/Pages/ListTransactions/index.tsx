@@ -58,7 +58,7 @@ const ListTransactions = () => {
               {responseData.map(
                 ({ amount, customer, reference }: dataItems) => (
                   <div
-                    className="bg-butter-color rounded-lg w-80 p-3 m-5 text-left"
+                    className="bg-payment-color rounded-lg w-80 p-3 m-5 text-left"
                     key={reference}
                   >
                     <p>

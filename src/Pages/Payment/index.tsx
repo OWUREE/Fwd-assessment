@@ -36,11 +36,11 @@ const FormPayment = () => {
     publicKey,
     text: "Pay Now",
 
-    onSuccess: (data: any) => {
-      console.log(data);
+    onSuccess: () => {
+      // console.log(data);
       alert("Payment Successful, check your email for confirmation");
       navigate("/list");
-      return data;
+      // return data;
     },
 
     onClose: () => alert("all transaction will be lost"),
